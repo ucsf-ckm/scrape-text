@@ -1,0 +1,30 @@
+{
+  "name": "scrape-text",
+  "version": "1.0.0",
+  "description": "CLI tool to get text contents of a URL.",
+  "bin": {
+    "scrape-text": "./index.js"
+  },
+  "scripts": {
+    "test": "semistandard --fix && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucsf-ckm/scrape-text.git"
+  },
+  "keywords": [
+    "scraping"
+  ],
+  "author": "Rich Trott <rtrott@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ucsf-ckm/scrape-text/issues"
+  },
+  "homepage": "https://github.com/ucsf-ckm/scrape-text#readme",
+  "dependencies": {
+    "puppeteer": "^1.12.2"
+  },
+  "devDependencies": {
+    "semistandard": "^13.0.1"
+  }
+}
