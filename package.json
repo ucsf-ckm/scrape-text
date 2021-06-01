@@ -21,10 +21,10 @@
     "url": "https://github.com/ucsf-ckm/scrape-text/issues"
   },
   "homepage": "https://github.com/ucsf-ckm/scrape-text#readme",
-  "dependencies": {
-    "puppeteer": "^2.1.1"
-  },
   "devDependencies": {
     "semistandard": "^14.2.0"
+  },
+  "dependencies": {
+    "puppeteer": "^10.0.0"
   }
 }
