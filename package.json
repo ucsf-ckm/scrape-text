@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ucsf-ckm/scrape-text#readme",
   "devDependencies": {
-    "semistandard": "^14.2.0"
+    "semistandard": "^16.0.1"
   },
   "dependencies": {
     "puppeteer": "^10.0.0"
