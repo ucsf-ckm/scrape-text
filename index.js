@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 if (!process.argv[2]) {
