@@ -25,6 +25,6 @@
     "semistandard": "^16.0.1"
   },
   "dependencies": {
-    "puppeteer": "^13.1.1"
+    "puppeteer": "^13.1.2"
   }
 }
