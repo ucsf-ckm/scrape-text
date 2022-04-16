@@ -6,7 +6,7 @@
     "scrape-text": "./index.js"
   },
   "scripts": {
-    "test": "semistandard --fix && node test.js"
+    "test": "semistandard --fix && c8 --100 node test.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ucsf-ckm/scrape-text#readme",
   "devDependencies": {
+    "c8": "^7.11.0",
     "semistandard": "^16.0.1"
   },
   "dependencies": {
