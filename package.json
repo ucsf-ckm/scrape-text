@@ -5,8 +5,9 @@
   "bin": {
     "scrape-text": "./index.js"
   },
+  "type": "module",
   "scripts": {
-    "test": "semistandard --fix && c8 --100 node test.js"
+    "test": "tsc && ts-standard -p tsconfig.json && c8 --100 node test.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,16 @@
   },
   "homepage": "https://github.com/ucsf-ckm/scrape-text#readme",
   "devDependencies": {
+    "@types/node": "^17.0.24",
     "c8": "^7.11.0",
-    "semistandard": "^16.0.1"
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.7.0-dev.20220415"
+  },
+  "ts-standard": {
+    "ignore": [
+      "**/*.js",
+      "**/*.d.ts"
+    ]
   },
   "dependencies": {
     "puppeteer": "^13.5.2"
