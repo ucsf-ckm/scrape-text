@@ -30,6 +30,6 @@
     "standard": "^17.1.0"
   },
   "dependencies": {
-    "puppeteer": "^13.5.2"
+    "puppeteer": "^20.8.0"
   }
 }
